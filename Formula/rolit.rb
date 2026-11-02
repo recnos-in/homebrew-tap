@@ -2,23 +2,23 @@
 class Rolit < Formula
   desc "Native client for Rolit's hosted agent runtime"
   homepage "https://github.com/recnos-in/rolit-cli-releases"
-  version "0.2.5"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/recnos-in/rolit-cli-releases/releases/download/v0.2.5/rolit-aarch64-apple-darwin.tar.gz"
-      sha256 "bab9399b30abf3adbc7ab1dcd7373de5793614497ec5c3e6992221058d95dec9"
+      url "https://github.com/recnos-in/rolit-cli-releases/releases/download/v0.3.0/rolit-aarch64-apple-darwin.tar.gz"
+      sha256 "f7d282d7b98333aac655b14e1b953ca0bf4297bc12ee4b9ac9ee2de34f18702d"
     end
     on_intel do
-      url "https://github.com/recnos-in/rolit-cli-releases/releases/download/v0.2.5/rolit-x86_64-apple-darwin.tar.gz"
-      sha256 "8172770cc4c3a3c352b9630a0715354f028643351667a0d6ad66357a7fa722b7"
+      url "https://github.com/recnos-in/rolit-cli-releases/releases/download/v0.3.0/rolit-x86_64-apple-darwin.tar.gz"
+      sha256 "191bafed849717e4708e1eb8765014e21e482d41c1b6360900037dabe98e9f2f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/recnos-in/rolit-cli-releases/releases/download/v0.2.5/rolit-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7f33e966318c5d18e8c41813fbafb25c5cb7c0e361ddae19e8b7e4e420162be5"
+      url "https://github.com/recnos-in/rolit-cli-releases/releases/download/v0.3.0/rolit-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6d45e27b118148324e96ea1348a5d13fe769b52076b163fe191458b12b6c440b"
     end
     depends_on "alsa-lib"
     depends_on "libxcb"
